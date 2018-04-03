@@ -1,0 +1,9 @@
+[package]
+name = "rssToMail"
+version = "0.1.0"
+authors = ["Noah <turing.thesis@gmail.com>"]
+
+[dependencies]
+rss = {version = "1.0", features = ["from_url"]}
+html2text = "0.1.7"
+lettre = "0.7.0"
